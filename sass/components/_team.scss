@@ -1,0 +1,110 @@
+.team_head h2{
+    font-weight: 700;
+font-size: 40px;
+margin-top: 110px;
+padding-bottom: 7px;
+}
+
+.team_head p{
+    font-weight: 400;
+font-size: 16px;
+line-height: 27px;
+padding-bottom: 22px;
+}
+
+.team_inner{
+    margin-top: 26px;
+    margin-bottom: 27px;
+}
+
+.team_img{
+    border-radius: 10px;
+    overflow: hidden;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    position: relative;
+}
+
+.team_overly{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(0deg, #5956E8 -1.13%, rgba(255, 255, 255, 0) 45.11%);
+    border-radius: 10px;
+}
+
+.tmovr_text{
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+
+.tmovr_text h3{
+    font-weight: 600;
+    font-size: 20px;
+    color: #fff;
+}
+.tmovr_text h4{
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+}
+
+.team_slide{
+    position: relative;
+}
+
+.team_slide .slick-dots{
+    position: absolute;
+    left: 50%;
+    bottom: -5%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+
+.team_slide .slick-dots li{
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background-color: #CACACA;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin: 0 5px;
+}
+.team_slide .slick-dots li button{
+    color: transparent;
+    width: 12px;
+    height: 12px;
+    border: none;
+    background-color: #5956E8;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    opacity: 0;
+    transition: all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+}
+
+.team_slide .slick-dots li.slick-active button{
+    opacity: 1;
+}
